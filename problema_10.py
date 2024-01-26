@@ -4,6 +4,6 @@ lista_nueva = []
 x=0
 while x<longitud:
     if x != 0 or x!= 4 or x !=5:
-        lista_nueva=lista_muestra[x]
+        lista_nueva[x]=lista_muestra[x]
 x=x+1
 print(lista_nueva)
